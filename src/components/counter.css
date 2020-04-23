@@ -1,0 +1,29 @@
+.zero-warning {
+	background-color: blue;
+	padding: 5px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.zero-primary {
+	background-color: rgba(209, 139, 9, 0.87);
+	padding: 5px;
+	margin-right: 10px;
+	color: #000;
+	border-radius: 10px;
+}
+
+.btn-plus {
+	background-color: rgb(71, 67, 67);
+	padding: 10px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+}
+
+.btn-plus:hover,
+.zero-warning:hover,
+.zero-warning:hover {
+	cursor: pointer;
+}
