@@ -12,24 +12,21 @@ class Counter extends Component {
 	}
 	render() {
 		return (
-			<div>
-				<h1>React App</h1>
-				<div>
-					<span className={this.getColorClasses()}>{this.formatCount()}</span>
-					<button
-						onClick={() => this.props.onIncrement(this.props.counter)}
-						className="btn-plus"
-					>
-						Increment
-					</button>
+			<div className="wrapper">
+				<span className={this.getColorClasses()}>{this.formatCount()}</span>
+				<button
+					onClick={() => this.props.onIncrement(this.props.counter)}
+					className="btn-plus"
+				>
+					Increment
+				</button>
 
-					<button
-						onClick={() => this.props.onDelete(this.props.counter.id)}
-						className="delete-btn"
-					>
-						Delete
-					</button>
-				</div>
+				<button
+					onClick={() => this.props.onDelete(this.props.counter.id)}
+					className="delete-btn"
+				>
+					Delete
+				</button>
 			</div>
 		);
 	}
