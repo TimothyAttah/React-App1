@@ -1,0 +1,78 @@
+.wrapper {
+	margin-top: 20px;
+}
+
+.zero-warning {
+	background-color: blue;
+	padding: 5px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.zero-primary {
+	background-color: rgba(209, 139, 9, 0.87);
+	padding: 5px;
+	margin-right: 10px;
+	color: #000;
+	border-radius: 10px;
+}
+
+.btn-plus {
+	background-color: rgb(71, 67, 67);
+	padding: 10px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+}
+
+.delete-btn {
+	background-color: rgb(226, 21, 21);
+	padding: 8px;
+	margin-left: 15px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+}
+
+.reset-btn {
+	background-color: rgb(14, 31, 189);
+	padding: 8px;
+	margin-left: 15px;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+}
+
+.navbar {
+	background-color: rgb(227, 241, 243);
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.nav {
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+
+.nav h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.totalCount {
+	background-color: rgb(71, 67, 67);
+	padding: 5px;
+	border-radius: 15px;
+	border: none;
+	margin-left: 10px;
+	color: #fff;
+}
+
+.btn-plus:hover,
+.zero-warning:hover,
+.zero-warning:hover,
+.delete-btn:hover {
+	cursor: pointer;
+}
